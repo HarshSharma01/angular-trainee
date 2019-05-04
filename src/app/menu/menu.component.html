@@ -1,0 +1,11 @@
+<table class="table table-striped, table table-bordered" >
+    <tr>
+      <th>Select an Operation</th>
+    </tr>
+        <tr><a href="/add" >Add Trainee</a></tr>
+        <tr> <a href="/delete" >Delete Trainee</a></tr>
+      <tr><a (click)="update" >Modify Trainee</a></tr>
+      <tr> <a (click)="selectById">Retrieve Trainee</a></tr>
+        <tr> <a (click)="selectAll">Retrieve All Trainees</a></tr>
+  </table>
+<router-outlet></router-outlet>
